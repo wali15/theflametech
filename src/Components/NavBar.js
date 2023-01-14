@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Title from "../OurProjectsImages/Title.jpg";
 
 const NavBar = () => {
   return (
@@ -7,7 +8,7 @@ const NavBar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            The Flame Tech
+            <img src={Title} className="img3" alt="The Flame Tech" />
           </a>
           <button
             className="navbar-toggler"

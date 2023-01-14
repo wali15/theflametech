@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
     <div className="container">
       <br></br>
-      <h1>Contact us</h1>
+      <h2>Contact us</h2>
       <br></br>
       <div>
         <div className="social-links">
